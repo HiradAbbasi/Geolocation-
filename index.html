@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+  <script defer src="app.js"></script>
+  <title>MITT Maps</title>
+</head>
+
+<body>
+  <aside>
+    <form>
+      <input type="text" placeholder="Search Your Maps">
+    </form>
+    <ul class="points-of-interest">
+    </ul>
+  </aside>
+
+  <main id="map" class="mapboxgl-map">
+    <div id='map' style='width: 400px; height: 300px;'></div>
+  </main>
+</body>
+
+</html>
